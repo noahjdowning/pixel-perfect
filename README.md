@@ -1,4 +1,4 @@
-# pixel-perfect
+# pixel-(im?)perfect
 
 This repository is for the documentation of my work using a clustering algorithm to generate adaptive apertures used for TESS photometric time-series. In this repository are two jupyter notebooks: pipeline.ipynb and seismic_test.ipynb. 
 
