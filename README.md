@@ -8,4 +8,4 @@ seismic_test.ipynb: has the code used to generate power spectra from these light
 
 Notes: Currently the power spectra created to not quite match those of [Hon et al. 2021](https://ui.adsabs.harvard.edu/abs/2021ApJ...919..131H/abstract). As I only pulled the first available TESS sector for each target it is not guaranteed that the first sector was the one [Hon et al. 2021](https://ui.adsabs.harvard.edu/abs/2021ApJ...919..131H/abstract) found oscillations in. As such you may notice some of these light curves are rather noisy with unusual signals (all around ~60 microhertz). Because of this, it is difficult to say whether or not adaptive apertures via a clustering algorithm perform better than a simple 3x3 pixel mask or other shapes/sizes based on magnitude.
 
-You will need to make sure you install l[ightkurve](https://lightkurve.github.io/lightkurve/), [tglc](https://github.com/TeHanHunter/TESS_Gaia_Light_Curve). 
+You will need to make sure you install [lightkurve](https://lightkurve.github.io/lightkurve/), [tglc](https://github.com/TeHanHunter/TESS_Gaia_Light_Curve). 
